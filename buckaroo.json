@@ -1,0 +1,7 @@
+{
+  "name": "crow",
+  "dependencies": {
+    "boost-algorithm": "1.63.0",
+    "boost-asio": "1.63.0"
+  }
+}

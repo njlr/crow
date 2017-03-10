@@ -1,0 +1,25 @@
+cxx_binary(
+  name = 'helloworld',
+  srcs = [
+    'helloworld.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:crow',
+  ],
+)
+
+cxx_binary(
+  name = 'example',
+  srcs = [
+    'example.cpp',
+  ],
+  compiler_flags = [
+    '-std=c++11',
+  ],
+  deps = [
+    '//:crow',
+  ],
+)

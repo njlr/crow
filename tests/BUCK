@@ -1,0 +1,12 @@
+cxx_binary(
+  name = 'unittest',
+  srcs = [
+    'unittest.cpp'
+  ],
+  compiler_flags = [
+    '-std=c++14',
+  ],
+  deps = [
+    '//:crow',
+  ],
+)
